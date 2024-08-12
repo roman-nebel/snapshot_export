@@ -11,6 +11,7 @@
   },
   "author": "Roman Nebel",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@figma/eslint-plugin-figma-plugins": "*",
     "@figma/plugin-typings": "*",

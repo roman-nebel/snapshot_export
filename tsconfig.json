@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": ["es6"],
+    "target": "es2017",
+    "module": "es2022",
+    "lib": ["ES2022"],
     "strict": true,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@figma"
-    ]
-  }
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"]
 }
